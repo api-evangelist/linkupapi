@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LinkupAPI is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://linkupapi.com/
+LinkupAPI provides an outreach API enabling AI agents and software to automate LinkedIn, email, and WhatsApp communications. It offers endpoints for prospect search, profile retrieval, email verification, messaging, and engagement tracking, supporting use cases like lead generation, candidate sourcing, and CRM enrichment. The platform includes a Managed Cloud Platform (MCP) for seamless integration with Claude, Cursor, and other AI tools, delivering real-time data and interaction capabilities across B2B channels.
+
+**Areas:** Company · API · Outreach · AI · Automation
+
+## LinkupAPI on APIs.io
+
+Everything profiled for LinkupAPI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/linkupapi/](https://apis.io/providers/linkupapi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [LinkupAPI API](https://apis.io/apis/linkupapi/linkupapi-api-2/) — API for automating LinkedIn, email, and WhatsApp communications as described on the documentation site.
+- [LinkupAPI API](https://apis.io/apis/linkupapi/linkupapi-api/) — LinkupAPI API as documented publicly: 55 operations. Contract generated from the documentation by API Evangelist (2026-10-18); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Linkupapi Webhooks](https://apis.io/asyncapis/linkupapi/linkupapi-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostV1MessagesSendMessageRequest](https://apis.io/schemas/linkupapi/linkupapi-post-v1-messages-send-message-request/)
+- [PostV1NetworkAcceptInvitationRequest](https://apis.io/schemas/linkupapi/linkupapi-post-v1-network-accept-invitation-request/)
+- [PostV1NetworkAcceptInvitationResponse](https://apis.io/schemas/linkupapi/linkupapi-post-v1-network-accept-invitation-response/)
+- [PostV1ProfileSearchRequest](https://apis.io/schemas/linkupapi/linkupapi-post-v1-profile-search-request/)
+- [PostV1WebhooksAccountsRequest](https://apis.io/schemas/linkupapi/linkupapi-post-v1-webhooks-accounts-request/)
+- [PostV2CategoryRequest](https://apis.io/schemas/linkupapi/linkupapi-post-v2-category-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Linkupapi Context](https://apis.io/jsonld/linkupapi/linkupapi-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [LinkupAPI API Rules](https://apis.io/rules/linkupapi/linkupapi-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Linkupapi Authentication](https://apis.io/security/linkupapi/linkupapi-authentication/)
+- [Linkupapi Domain Security](https://apis.io/security/linkupapi/linkupapi-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Linkupapi Plans Pricing](https://apis.io/plans/linkupapi/linkupapi-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://linkupapi.com/)
+- [Documentation](https://docs.linkupapi.com/)
+- [Getting started](https://docs.linkupapi.com/api-reference/v2/mcp-setup)
+- [API reference](https://docs.linkupapi.com/llms.txt)
+- [Pricing](https://linkupapi.com/pricing)
+- [Terms of service](https://linkupapi.com/legal/legal-notice)
+- [Privacy policy](https://linkupapi.com/legal/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 47.2** — developing · rubric 0.24.0 · scored 2026-10-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 43.2 |
+| Contract governance | 70.9 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 60.0 |
+
+**Agent readiness 47.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/linkupapi/](https://apis.io/providers/linkupapi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LinkupAPI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/linkupapi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
